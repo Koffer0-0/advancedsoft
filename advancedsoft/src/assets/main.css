@@ -1,35 +1,14 @@
-@import './base.css';
+@import "src/assets/tailwind.css";
+@import "src/assets/hamburger.css";
+@import "src/assets/pulse.css";
+@import "src/assets/aos.css";
+@import "src/assets/scrollbar.css";
+@import "src/assets/transitions.css";
+@import "src/assets/shake.css";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;600;700;800;900&display=fallback");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&family=Inter:wght@400;500;600;700;800;900&display=fallback");
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

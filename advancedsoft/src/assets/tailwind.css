@@ -1,0 +1,80 @@
+.h1 {
+    @apply text-4xl;
+}
+
+.h2 {
+    @apply text-3xl;
+}
+
+.h3 {
+    @apply text-3xl;
+}
+
+.h4 {
+    @apply text-2xl;
+}
+
+.btn {
+  @apply px-8 py-2  text-gray-100 bg-purple-700 hover:scale-105 font-title tracking-normal rounded-sm;
+}
+
+
+.btn-outline {
+  @apply px-8 py-2  text-gray-100 border-purple-700 border-2 hover:bg-purple-700 font-title tracking-normal rounded-sm;
+}
+
+.btn-gray {
+  @apply px-8 py-2 bg-gray-800  text-gray-100 hover:scale-105 font-title tracking-normal rounded-sm;
+}
+
+.input {
+  @apply bg-gray-800 w-full p-1 border-2 border-gray-800  focus:border-gray-500 focus:outline-none text-gray-300 
+}
+
+
+.title-clickable {
+    @apply font-title text-gray-300 hover:text-purple-600 cursor-pointer 
+}
+
+.title {
+    @apply font-title text-gray-300
+}
+
+/* Forms */
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox,
+.form-radio {
+    @apply bg-transparent border-2 border-gray-700 focus:border-gray-500 focus:outline-none;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox {
+    @apply rounded-sm;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select {
+    @apply py-3 px-4;
+}
+
+.form-input,
+.form-textarea {
+    @apply placeholder-gray-500;
+}
+
+.form-select {
+    @apply pr-10;
+}
+
+.form-checkbox,
+.form-radio {
+    @apply text-purple-600;
+}
